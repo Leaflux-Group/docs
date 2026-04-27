@@ -22,7 +22,10 @@
     },
     "navbar": {
         "links": [],
-        "primary": {}
+        "primary": {
+            "type": "discord",
+            "href": "https://discord.gg/Knf2mhnJu6"
+        }
     },
     "contextual": {
         "options": []
