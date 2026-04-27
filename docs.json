@@ -14,14 +14,14 @@
           "tab": "Dashboard",
           "icon": "house",
           "pages": [
-            "/structure/dashboard-tab/contact-us",
-            "/structure/dashboard-tab/terms-of-service",
-            "/structure/dashboard-tab/status",
+            "/structure/dashboard/contact-us",
+            "/structure/dashboard/terms-of-service",
+            "/structure/dashboard/status",
             {
               "group": "License",
               "pages": [
-                "/structure/dashboard-tab/license/refunds",
-                "/structure/dashboard-tab/license/license-transfers"
+                "/structure/dashboard/license/refunds",
+                "/structure/dashboard/license/transfers"
               ]
             }
           ]
@@ -30,7 +30,7 @@
           "tab": "Documentation",
           "icon": "book",
           "pages": [
-            "/structure/documentation-tab/installation"
+            "/structure/documentation/installation"
           ]
         }
       ]
