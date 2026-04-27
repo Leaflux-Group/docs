@@ -9,15 +9,16 @@
     },
     "favicon": "/logo/dark.svg",
     "navigation": {
-        "groups": [
-            {
-                "group": "Getting Started",
-                "pages": [
-                    "/Structure/Getting Started/introduction",
-                    "/Structure/Getting Started/terms-of-service"
-                ]
-            }
-        ]
+      "pages": [
+        {
+          "group": "Getting Started",
+          "pages": [
+            "/Structure/Getting Started/introduction",
+            "/Structure/Getting Started/terms-of-service"
+          ]
+        },
+        "terms-of-service"
+      ]
     },
     "logo": {
         "dark": "/logo/dark.svg",   
