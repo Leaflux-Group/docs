@@ -9,14 +9,10 @@
     },
     "favicon": "/logo/dark.svg",
     "navigation": {
-        //"tabs": [],
-        //"global": []
         "groups": [
             {
-                "name": "Getting Started",
-                "pages:": [
-                    "/Structure/Getting Started/introduction.mdx"
-                ]
+                "group": "Getting Started",
+                "pages": ["/Structure/Getting Started/introduction.mdx"]
             }
         ]
     },
