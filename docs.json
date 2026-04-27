@@ -9,15 +9,30 @@
     },
     "favicon": "/logo/dark.svg",
     "navigation": {
-      "pages": [
+      "dropdowns": [
         {
-          "group": "Getting Started",
+          "dropdown": "Documentation",
+          "icon": "book",
           "pages": [
-            "/Structure/Getting Started/introduction",
-            "/Structure/Getting Started/terms-of-service"
+            {
+              "group": "Getting Started",
+              "pages": [
+                "introduction",
+                "terms-of-service",
+                "installation"
+              ]
+            },
+            {
+              "group": "Products",
+              "pages": []
+            }
           ]
         },
-        "terms-of-service"
+        {
+          "dropdown": "Support",
+          "icon": "user-headset",
+          "hidden": true
+        }
       ]
     },
     "logo": {
