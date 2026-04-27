@@ -9,29 +9,29 @@
     },
     "favicon": "/logo/dark.svg",
     "navigation": {
-      "dropdowns": [
+      "tabs": [
         {
-          "dropdown": "Documentation",
-          "icon": "book",
+          "tab": "Dashboard",
+          "icon": "house",
           "pages": [
+            "contact-us",
+            "terms-of-service",
+            "status",
             {
-              "group": "Getting Started",
+              "group": "License",
               "pages": [
-                "introduction",
-                "terms-of-service",
-                "installation"
+                "refunds",
+                "license-transfers"
               ]
-            },
-            {
-              "group": "Products",
-              "pages": []
             }
           ]
         },
         {
-          "dropdown": "Support",
-          "icon": "user-headset",
-          "hidden": true
+          "tab": "Documentation",
+          "icon": "book",
+          "pages": [
+            "installation"
+          ]
         }
       ]
     },
