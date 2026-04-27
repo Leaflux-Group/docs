@@ -12,7 +12,10 @@
         "groups": [
             {
                 "group": "Getting Started",
-                "pages": ["/Structure/Getting Started/introduction.mdx"]
+                "pages": [
+                    "/Structure/Getting Started/introduction",
+                    "/Structure/Getting Started/terms-of-service"
+                ]
             }
         ]
     },
@@ -23,7 +26,8 @@
     "navbar": {
         "links": [],
         "primary": {
-            "type": "discord",
+            "type": "button",
+            "label": "Contact Us",
             "href": "https://discord.gg/Knf2mhnJu6"
         }
     },
@@ -32,8 +36,7 @@
     },
     "footer": {
         "socials": {
-            "discord": "https://discord.gg/Knf2mhnJu6",
-            "roblox": "https://roblox.com/communities/49818426"
+            "discord": "https://discord.gg/Knf2mhnJu6"
         }
     }
 }
