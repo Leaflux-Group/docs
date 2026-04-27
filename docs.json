@@ -9,8 +9,16 @@
     },
     "favicon": "/logo/dark.svg",
     "navigation": {
-        "tabs": [],
-        "global": []
+        //"tabs": [],
+        //"global": []
+        "groups": [
+            {
+                "name": "Getting Started",
+                "pages:": [
+                    "/Structure/Getting Started/introduction.mdx"
+                ]
+            }
+        ]
     },
     "logo": {
         "dark": "/logo/dark.svg",   
