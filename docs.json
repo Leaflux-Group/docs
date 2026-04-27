@@ -1,6 +1,6 @@
 {
     "$schema": "https://mintlify.com/docs.json",
-    "theme": "mint",
+    "theme": "quill",
     "name": "Leaflux Group Documentation",
     "colors": {
         "primary": "#16A34A",
@@ -14,8 +14,8 @@
           "tab": "Dashboard",
           "icon": "house",
           "pages": [
-            "/structure/dashboard/contact-us",
             "/structure/dashboard/terms-of-service",
+            "/structure/dashboard/contact-us",
             "/structure/dashboard/status",
             {
               "group": "License",
@@ -38,17 +38,6 @@
     "logo": {
         "dark": "/logo/dark.svg",   
         "light": "/logo/light.svg"
-    },
-    "navbar": {
-        "links": [],
-        "primary": {
-            "type": "button",
-            "label": "Contact Us",
-            "href": "https://discord.gg/Knf2mhnJu6"
-        }
-    },
-    "contextual": {
-        "options": []
     },
     "footer": {
         "socials": {
