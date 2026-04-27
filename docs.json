@@ -14,6 +14,7 @@
           "tab": "Dashboard",
           "icon": "house",
           "pages": [
+            "/structure/dashboard/welcome-to-leaflux-group",
             "/structure/dashboard/terms-of-service",
             "/structure/dashboard/contact-us",
             "/structure/dashboard/status",
